@@ -96,8 +96,7 @@ layout: default
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-                    <!---id: window.location.pathname, 使用MD5加密，修复github新增issue长度50字符限制导致gittalk验证失败无法评论-->
-                    id: md5(window.location.pathname),
+                    id: window.location.pathname,
                     });
                     gitalk.render('gitalk-container');
                 </script>
