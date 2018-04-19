@@ -62,7 +62,7 @@ kramdown:
 
 # Gitalk    较长的文章标题无法加载gittalk评论插件，目前临时解决办法使用md5加密文章标题可正常显示，这里暂时使用disqus插件，日后官方完善后再使用gittalk
 gitalk:
-  enable: false    #是否开启Gitalk评论     暂时用false关闭
+  enable: true    #是否开启Gitalk评论     暂时用false关闭
   clientID: 38d23aad0a348c757350                            #生成的clientID
   clientSecret: d62a6a76f4ad5df5acfed3939fb8bf009c9625ca    #生成的clientSecret
   repo: ZhendongZhao.github.io    #仓库名称
