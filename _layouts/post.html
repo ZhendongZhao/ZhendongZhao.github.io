@@ -88,8 +88,8 @@ layout: default
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
                 <!--<script src="https://rawgit.com/ZhendongZhao/ebe558105f16e3abad2fd2e39d61aeee/raw/bf7d4f8f683c1adda830dfa4a648c51f90b3e361/md5.min.js"></script>-->
-                <!--<script src="/js/md5.min.js"></script>-->
-                <script src="{{ site.baseurl }}/js/md5.min.js"></script>
+                <script src="/js/md5.min.js"></script>
+                <!--<script src="{{ site.baseurl }}/js/md5.min.js"></script>-->
                 <div id="gitalk-container"></div>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
@@ -98,7 +98,7 @@ layout: default
                     repo: '{{site.gitalk.repo}}',
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
-                    id: md5(location.href),
+                    id: md5(window.location.pathname),
 //                    id: md5('{{site.gitalk.id}}'),
                     distractionFreeMode: '{{site.gitalk.distractionFreeMode}}'
 //                    id: window.location.pathname,
