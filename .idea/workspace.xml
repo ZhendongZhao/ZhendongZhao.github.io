@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0bbe27f-8bad-4257-a2b7-bb3927440ba4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/md5.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/keynote.html" afterPath="$PROJECT_DIR$/_layouts/keynote.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
@@ -26,24 +25,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="54" />
+            <state relative-caret-position="225">
+              <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
               <folding>
-                <marker date="1524130903816" expanded="true" signature="3836:4321" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
+                <marker date="1524131501864" expanded="true" signature="3916:4447" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keynote.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="keynote.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="102" column="49" lean-forward="true" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="42" />
+              <folding>
+                <marker date="1524131502023" expanded="true" signature="4210:4663" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +108,8 @@
       <find>enable</find>
       <find>theme.gitalk.enable</find>
       <find>clientID</find>
+      <find>site.baseurl</find>
+      <find>location.href</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,8 +141,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-03-26-慢SQL优化之联表查询.md" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_layouts/keynote.html" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -334,7 +337,7 @@
       <workItem from="1521602385688" duration="8656000" />
       <workItem from="1521700937728" duration="20155000" />
       <workItem from="1522027656489" duration="7648000" />
-      <workItem from="1524119623577" duration="6272000" />
+      <workItem from="1524119623577" duration="6841000" />
     </task>
     <task id="LOCAL-00001" summary="update config.yml">
       <created>1521636972962</created>
@@ -504,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524130085100</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="本地加载js md5加密">
+      <created>1524130955873</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1524130955873</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42731000" />
+    <option name="totallyTimeSpent" value="43300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,7 +603,8 @@
     <MESSAGE value="关闭gittalk功能" />
     <MESSAGE value="开启gitalk插件，使用md5加密id解决报错问题" />
     <MESSAGE value="fix md5加密没生效问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix md5加密没生效问题" />
+    <MESSAGE value="本地加载js md5加密" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地加载js md5加密" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -604,6 +615,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#1158#1164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,6 +829,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#1158#1164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -838,6 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
           <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,21 +945,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="90" column="54" lean-forward="true" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="106" column="42" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="42" />
           <folding>
-            <marker date="1524130903816" expanded="true" signature="3836:4321" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
+            <marker date="1524131502023" expanded="true" signature="4210:4663" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="102" column="49" lean-forward="true" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <marker date="1524131501864" expanded="true" signature="3916:4447" ph="{&quot;clientID&quot;: '{{site.gitalk.clientID}}'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
